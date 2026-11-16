@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(mkdir -p \"C:/Users/Boubaker/Desktop/TP-React/backend/src/auth\")",
+      "Bash(npm run *)",
+      "Bash(node -e ' *)",
+      "Bash(node src/server.js)",
+      "Bash(curl -s http://localhost:5000/users)",
+      "Bash(curl -s -X POST http://localhost:5000/api/v2/auth/token -H \"Content-Type: application/json\" -d '{\"api_key\": \"tpk_icowUt1sIYu4lOvLrCZ3CrYjkj_dTPrw\"}')",
+      "Bash(curl -s -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiQnJldCIsImVtYWlsIjoiU2luY2VyZUBhcHJpbC5iaXoiLCJpYXQiOjE3OTQ1ODIwNjMsImV4cCI6MTc5NDU4Mjk2M30.QGCNd_edzJm82OUpOdPMW1b1xitaldNFBsSbUTY8TaM\" http://localhost:5000/api/v2/users)",
+      "Bash(curl -s -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiQnJldCIsImVtYWlsIjoiU2luY2VyZUBhcHJpbC5iaXoiLCJpYXQiOjE3OTQ1ODIwNjMsImV4cCI6MTc5NDU4Mjk2M30.QGCNd_edzJm82OUpOdPMW1b1xitaldNFBsSbUTY8TaM\" http://localhost:5000/api/v2/posts)",
+      "Bash(curl -s http://localhost:5000/api/v2/users)",
+      "Bash(curl -s -X POST http://localhost:5000/api/v2/auth/refresh -H \"Content-Type: application/json\" -d '{\"refresh_token\": \"a9iIAOYvUdhIVZxLYluXlHz0R68QDNkinABVajGQ6j1oQzCrv86YKlnoOvUXEtQI\"}')",
+      "Bash(curl -s -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiQnJldCIsImVtYWlsIjoiU2luY2VyZUBhcHJpbC5iaXoiLCJpYXQiOjE3OTQ1ODIxMDUsImV4cCI6MTc5NDU4MzAwNX0.FchMu4ZKfJOpg4Mk2gRAhE1sxiDXQKC2qL1sUaM92cM\" http://localhost:5000/api/v2/users)",
+      "Bash(npm test *)",
+      "Bash(curl -s -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiQnJldCIsImVtYWlsIjoiU2luY2VyZUBhcHJpbC5iaXoiLCJpYXQiOjE3OTQ1ODIxMDUsImV4cCI6MTc5NDU4MzAwNX0.FchMu4ZKfJOpg4Mk2gRAhE1sxiDXQKC2qL1sUaM92cM\" http://localhost:5000/api/v2/health)",
+      "Bash(curl -s -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiQnJldCIsImVtYWlsIjoiU2luY2VyZUBhcHJpbC5iaXoiLCJpYXQiOjE3OTQ1ODIxMDUsImV4cCI6MTc5NDU4MzAwNX0.FchMu4ZKfJOpg4Mk2gRAhE1sxiDXQKC2qL1sUaM92cM\" http://localhost:5000/api/v2/avatars/random)",
+      "Bash(curl -s http://localhost:5000/posts?userId=1)"
+    ]
+  }
+}
